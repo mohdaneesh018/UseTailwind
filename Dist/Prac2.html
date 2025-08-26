@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Practice Qs. 2</title>
+</head>
+
+<body class="grid place-content-center h-screen bg-indigo-400">
+
+    <!-- First Part -->
+    <h2 class="text-black flex justify-center text-xl mb-4">Responsive Navbar</h2>
+    <div class="bg-blue-600 w-full h-auto p-2 rounded-xl">
+        <div class="text-white flex justify-between">
+            <div>
+                <img class="h-10 rounded-full w-14"
+                    src="https://t3.ftcdn.net/jpg/04/43/10/12/360_F_443101282_x88vQ5SdTGNKxx36RelWJ7crqRk5trSE.jpg"
+                    alt="">
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a class="hover:bg-red-500 hover:text-white px-3 py-2 rounded-md" href="#">Home</a>
+                <a class="hover:bg-green-600 hover:text-white px-3 py-2 rounded-md" href="#">About</a>
+                <a class="hover:bg-yellow-700 hover:text-white px-3 py-2 rounded-md" href="#">Contact</a>
+            </div>
+        </div>
+    </div>
+ 
+
+    <!-- Second Part -->
+    <h2 class="text-black flex justify-center text-xl mb-4 my-4">Pricing Card</h2>
+    <div class="flex flex-col md:flex-row gap-6">
+
+        <!-- 1 card -->
+        <div class="bg-white rounded-xl shadow-lg p-6 w-64 space-y-4 text-center">
+            <h2 class="text-xl font-bold text-white bg-violet-500 py-2 rounded-md">Basic</h2>
+            <p class="text-2xl font-semibold text-white bg-black py-2 rounded-md">$69.00</p>
+            <ul class="text-slate-600 space-y-1">
+                <li>1 User</li>
+                <li>5GB Storage</li>
+                <li>Email Support</li>
+            </ul>
+            <button
+                class="bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg w-full hover:scale-105 transition-transform transform">Buy
+                Now</button>
+        </div>
+
+
+        <!-- 2 card -->
+        <div class="bg-white rounded-xl shadow-lg p-6 w-64 space-y-4 text-center">
+            <h2 class="text-xl font-bold text-white bg-green-500 py-2 rounded-md">Standard</h2>
+            <p class="text-2xl font-semibold text-white bg-black py-2 rounded-md">$129.00</p>
+            <ul class="text-slate-600 space-y-1">
+                <li>Limited Users</li>
+                <li>10GB Storage</li>
+                <li>Priority Support</li>
+            </ul>
+            <button
+                class="bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg w-full transition-transform transform hover:scale-105">Buy
+                Now</button>
+        </div>
+
+
+        <!-- 3 card -->
+        <div class="bg-white rounded-xl shadow-lg p-6 w-64 space-y-4 text-center">
+            <h2 class="text-xl font-bold text-white bg-yellow-500 py-2 rounded-md">Premium</h2>
+            <p class="text-2xl font-semibold text-white bg-black py-2 rounded-md">$199.00</p>
+            <ul class="text-slate-600 space-y-1">
+                <li>Unlimited Users</li>
+                <li>50GB Storage</li>
+                <li>24/7 Support</li>
+            </ul>
+            <button
+                class="bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg w-full transition-transform transform hover:scale-105">Buy
+                Now</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
